@@ -1,5 +1,5 @@
 # Build Stage
-FROM gradle:8.14.3-jdk24 AS build
+FROM gradle:8.14.2-jdk24 AS build
 LABEL MAINTAINER="srijaadhya.11sc.2020@gmail.com"
 COPY service /home/gradle/service
 WORKDIR /home/gradle/service
