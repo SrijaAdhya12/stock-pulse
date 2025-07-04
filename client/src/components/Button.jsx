@@ -17,8 +17,8 @@ const Button = () => {
 	}
 
 	return (
-		<div>
-			<button onClick={handleClick}>Check Server Health</button>
+		<div className='mx-auto container'>
+			<button className='border p-2 border-red-800 text-red-500' onClick={handleClick}>Check Server Health</button>
 			{response && <p>{response}</p>}
 		</div>
 	)
